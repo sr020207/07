@@ -3,15 +3,17 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-int main(int argc, char *argv[]) {
-	int flag = 1;
-	while(flag != 0)
+int main(int argc, char *argv[])
+{
+	int i;
+	int temp;
+
+	for (i=0,temp=0;i<5;i++,temp++) 
 	{
-		int y;
-		y = 3;
-		flag = 0;
-	 } 
-	 // y=4;
-	 // 블록 내부에서 정의한 변수를 밖에서 사용 
+	//int temp = 1;
+	printf("temp = %d\n", temp);
+	//temp++;
+	}
+	
 	return 0;
 }
